@@ -1,0 +1,27 @@
+package com.hjh.operators;
+
+public class Ex2_operators {
+
+	public static void main(String[] args) {
+		// 연산자
+		System.out.println("산술연산자 \n ---------");
+		int x = 10;
+		int y = 3;
+
+		System.out.println(x + y); // 13
+		System.out.println(x - y); // 7
+		System.out.println(x * y); // 30
+		System.out.println(x / y); // 3
+		System.out.println(x % y); // 1
+
+		int z = 5;
+		++z;
+		System.out.println(z); // 6
+		--z;
+		--z;
+		--z;
+		System.out.println(z); // 3
+
+	}
+
+}
