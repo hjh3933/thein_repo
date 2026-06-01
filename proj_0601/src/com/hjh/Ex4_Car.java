@@ -9,6 +9,12 @@ public class Ex4_Car {
 		Car car3 = new Car("Hyundai", 2026, "Ioniq 5N", "Blue", 260);
 
 		System.out.println(car1.brand);
+		System.out.println(car2.modelColor);
+		car2.introduce();
+		car3.introduce();
+
+		car2.changeColor("Green");
+		System.out.println(car2.modelColor);
 
 	}
 
