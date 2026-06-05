@@ -5,4 +5,5 @@ class CardPayment extends Payment {
 	void pay(int amount) {
 		System.out.println("카드 결제: " + amount);
 	}
+
 }
